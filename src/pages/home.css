@@ -1,0 +1,107 @@
+.main-section {
+	margin-top: 80px;
+	width: 100%;
+}
+
+.mainimg-section {
+	position: relative;
+	width: 100%;
+}
+
+.mainimg-section img {
+	width: 100%;
+	height: auto;
+	object-fit: cover;
+}
+
+.clock-container {
+	position: absolute;
+	top: 6vw;
+	right: 43vw;
+	background-color: rgba(219, 128, 128, 0);
+	font-size: 1.5vw;
+	font-weight: bold;
+	text-align: center;
+	color: rgb(61, 61, 61);
+}
+
+.clock {
+	text-decoration: overline;
+	margin: 0.8vw;
+}
+
+.mainside-bar {
+	width: 80%;
+	margin: 10px auto 50px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	gap: 20px;
+}
+
+.icon {
+	width: 30%;
+	margin: 10px auto;
+}
+
+.mainsidebar-button {
+	width: 20%;
+	margin: 10px auto;
+	padding: 10px;
+	border: none;
+	font-size: 1.9vw;
+	font-weight: bold;
+	cursor: pointer;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: white;
+	color: rgb(61, 61, 61);
+}
+
+.mainsidebar-button:hover {
+	color: #AE0E36;
+	background-color: rgb(186, 186, 186);
+}
+
+@media (max-width: 925px) {
+	.mainimg-section img {
+		min-height: 220px;
+	}
+
+	.mainsidebar-button {
+		font-size: 1.8vw;
+	}
+}
+
+@media (max-width: 860px) {
+	.mainside-bar {
+		width: 80%;
+		margin: 0px auto 10px;
+		gap: 10px;
+	}
+
+	.icon {
+		width: 40%;
+	}
+
+	.mainsidebar-button {
+		width: 45%;
+		font-size: 2.8vw;
+		padding: 5px;
+	}
+}
+
+@media (max-width: 768px) {
+	.main-section {
+		margin-top: 50px;
+	}
+
+	.clock-container {
+		font-size: 1.8vw;
+	}
+
+	.icon {
+		width: 50%;
+	}
+}
