@@ -22,4 +22,4 @@ https://sejongnet.netlify.app/
 
    이 저장소를 클론합니다.
    ```bash
-   git clone https://github.com/yujeong223/Sejong-Net.git
+   git clone https://github.com/pepper-sister/Sejong-Net.git
