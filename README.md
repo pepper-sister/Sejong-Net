@@ -1,7 +1,7 @@
 ![Sejongnet Logo](./logo_text.png)
 ===
 
-**Sejong Net**은 사용자가 세종대학교에 대한 다양한 정보를 쉽게 찾고 공유할 수 있도록 돕는 **웹 애플리케이션**입니다. 이 프로젝트는 React, Kakao Map API 및 여러 외부 API를 활용하여 세종대학교와 관련된 모든 페이지와 학교에 있는 프린터, ATM,  편의점과 같은 다양한 편의시설 정보를 제공합니다.
+> **Sejong Net**은 사용자가 세종대학교에 대한 다양한 정보를 쉽게 찾고 공유할 수 있도록 돕는 **웹 애플리케이션**입니다. 이 프로젝트는 React, Kakao Map API 및 여러 외부 API를 활용하여 세종대학교와 관련된 모든 페이지와 학교에 있는 프린터, ATM,  편의점과 같은 > 다양한 편의시설 정보를 제공합니다.
 
 ## 사이트
 https://sejongnet.netlify.app/
@@ -17,9 +17,3 @@ https://sejongnet.netlify.app/
 - **프론트엔드**: React, JavaScript, CSS
 - **지도 API**: Kakao Map API
 - **데이터 소스**: [KaKao Map API](https://apis.map.kakao.com/web/)
-
-## 설치 방법
-
-   이 저장소를 클론합니다.
-   ```bash
-   git clone https://github.com/pepper-sister/Sejong-Net.git
