@@ -10,7 +10,7 @@ import udreIcon from '../assets/udre.png';
 import humaIcon from '../assets/huma.png';
 import pleaIcon from '../assets/plea.png';
 
-function All_websites() {
+function Allwebsites() {
   const goToSejongHomepage = () => {
     window.open('http://www.sejong.ac.kr/', '_blank');
   };
@@ -136,4 +136,4 @@ function All_websites() {
   );
 }
 
-export default All_websites;
+export default Allwebsites;
