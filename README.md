@@ -1,70 +1,16 @@
-# Getting Started with Create React App
+![Sejongnet Logo](./logo_text.png)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Sejong Net**은 사용자가 세종대학교에 대한 정보를 쉽게 찾을 수 있도록 돕는 **웹 서비스**입니다. 이 프로젝트는 **React, Kakao Map API**를 활용하여 세종대학교와 관련된 주요 페이지와 학교에 위치한 프린터, ATM,  편의점과 같은 다양한 편의시설 정보를 제공합니다.
 
-## Available Scripts
+## 배포 사이트
+https://sejongnet.netlify.app/
 
-In the project directory, you can run:
+## 기능
 
-### `npm start`
+- **서버 시간 제공**: 사용자에게 세종대학교의 서버시간을 제공하여 수강신청, 시간 확인과 같은 도움을 줍니다.
+- **홈페이지 정보**: 세종대학교와 관련된 모든 홈페이지 정보와 바로가기를 통해 편한 사이트 관리가 가능합니다.
+- **편의 시설**: 세종대학교 내부에 위치한 프린터, ATM, 편의점과 같은 편의 시설의 자세한 위치 정보를 제공합니다.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 기술 스택
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+React.js, [KaKao Map API](https://apis.map.kakao.com/web/)

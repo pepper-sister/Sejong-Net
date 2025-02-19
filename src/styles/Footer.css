@@ -1,0 +1,20 @@
+.footer {
+  background-color: #373737;
+  color: white;
+  font-family: 'Pretendard', sans-serif;
+  text-align: center;
+  position: relative;
+  padding: 20px 0px;
+  bottom: 0;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.footer-content p {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+.icon-links {
+  margin-top: 10px;
+}

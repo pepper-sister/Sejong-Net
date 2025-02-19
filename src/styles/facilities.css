@@ -1,0 +1,80 @@
+.fac-section {
+  margin: 90px auto 60px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#map {
+  width: 70%;
+  height: 40vw;
+  min-height: 550px;
+  margin: 0 auto 50px;
+  position: relative;
+}
+
+.button-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+  width: 50%;
+}
+
+.fac-button {
+  width: 23%;
+  margin: 10px auto;
+  padding: 20px 0px;
+  border: none;
+  font-size: 2vw;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border: 2px double #AE0E36;
+  color: rgb(61, 61, 61);
+}
+
+.fac-button:hover {
+  color: #AE0E36;
+  background-color: rgb(233, 204, 211)
+}
+
+@media (max-width: 950px) {
+  #map {
+    width: 80%;
+    height: 52vw;
+    min-height: 500px;
+    margin: 0 auto 30px;
+  }
+
+  .button-section {
+    width: 60%;
+  }
+
+  .fac-button {
+    width: 25%;
+    margin: 10px auto 0px;
+  }
+}
+
+@media (max-width: 768px) {
+  .fac-section {
+    margin-top: 50px;
+  }
+
+  #map {
+    height: 70vw;
+    min-height: 400px;
+    margin: 0 auto 20px;
+  }
+
+  .fac-button {
+    padding: 15px 0px;
+  }
+}
