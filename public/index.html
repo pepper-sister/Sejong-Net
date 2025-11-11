@@ -1,24 +1,13 @@
 <!DOCTYPE html>
 <html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/logo.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Sejong Net</title>
+  </head>
 
-<head>
-  <meta charset="utf-8" />
-  <link rel="icon" href="%PUBLIC_URL%/logo.png" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Sejong Net</title>
-
-  <link href="https://fonts.googleapis.com/css2?family=Pretendard:wght@400;500;700&display=swap" rel="stylesheet">
-</head>
-
-<body>
-  <div id="root"></div>
-
-  <script>
-    const appKey = process.env.REACT_APP_KAKAO_MAP_KEY;
-    const script = document.createElement('script');
-    script.src = `//dapi.kakao.com/v2/maps/sdk.js?appkey=${appKey}&libraries=services`;
-    document.head.appendChild(script);
-  </script>
-  
-</body>
+  <body>
+    <div id="root"></div>
+  </body>
 </html>
