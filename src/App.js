@@ -1,13 +1,18 @@
-import React from "react";
-import Router from "./shared/Router";
+import { Outlet } from "react-router-dom";
+import "./App.css";
+
+import Header from "./components/Header";
 import Footer from "./components/Footer";
-import "./styles/App.css";
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
-
   return (
-    <div class="App">
-      <Router />
+    <div className="App">
+      <ScrollToTop />
+      <Header />
+      <main>
+        <Outlet />
+      </main>
       <Footer />
     </div>
   );
