@@ -1,80 +1,97 @@
-.fac-section {
-  margin: 90px auto 60px;
-  width: 100%;
+.facilities {
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 40px;
+  padding: 32px 40px 44px;
+}
+@media (max-width: 1023px) {
+  .facilities {
+    padding: 12px 28px 40px;
+  }
+}
+@media (max-width: 480px) {
+  .facilities {
+    gap: 32px;
+    padding: 12px 8px 40px;
+  }
 }
 
-#map {
+.facilities__map {
   width: 70%;
-  height: 40vw;
-  min-height: 550px;
-  margin: 0 auto 50px;
+  height: 652px;
   position: relative;
+  border-radius: 12px;
+}
+@media (max-width: 1023px) {
+  .facilities__map {
+    width: 90%;
+    height: 600px;
+  }
+}
+@media (max-width: 787px) {
+  .facilities__map {
+    width: 95%;
+    height: 540px;
+  }
+}
+@media (max-width: 480px) {
+  .facilities__map {
+    height: 440px;
+  }
 }
 
-.button-section {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  gap: 20px;
-  width: 50%;
+.facilities__buttons {
+  width: 60%;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 40px;
+}
+@media (max-width: 1023px) {
+  .facilities__buttons {
+    width: 70%;
+  }
+}
+@media (max-width: 787px) {
+  .facilities__buttons {
+    width: 88%;
+    gap: 24px;
+  }
+}
+@media (max-width: 480px) {
+  .facilities__buttons {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+  }
 }
 
-.fac-button {
-  width: 23%;
-  margin: 10px auto;
-  padding: 20px 0px;
-  border: none;
-  font-size: 2vw;
-  font-weight: bold;
-  cursor: pointer;
+.facilities__button {
   display: flex;
   flex-direction: column;
-  text-align: center;
-  align-items: center;
   justify-content: center;
-  background-color: white;
-  border: 2px double #AE0E36;
-  color: rgb(61, 61, 61);
+  align-items: center;
+
+  background-color: #ffffff;
+  border: 2px double #ae0e36;
+  border-radius: 12px;
+  padding: 20px;
+
+  font-size: 32px;
+  font-weight: 600;
+  cursor: pointer;
 }
-
-.fac-button:hover {
-  color: #AE0E36;
-  background-color: rgb(233, 204, 211)
+.facilities__button:hover {
+  color: #ae0e36;
+  background-color: rgb(233, 204, 211);
 }
-
-@media (max-width: 950px) {
-  #map {
-    width: 80%;
-    height: 52vw;
-    min-height: 500px;
-    margin: 0 auto 30px;
-  }
-
-  .button-section {
-    width: 60%;
-  }
-
-  .fac-button {
-    width: 25%;
-    margin: 10px auto 0px;
+@media (max-width: 787px) {
+  .facilities__button {
+    font-size: 24px;
   }
 }
-
-@media (max-width: 768px) {
-  .fac-section {
-    margin-top: 50px;
-  }
-
-  #map {
-    height: 70vw;
-    min-height: 400px;
-    margin: 0 auto 20px;
-  }
-
-  .fac-button {
-    padding: 15px 0px;
+@media (max-width: 480px) {
+  .facilities__button {
+    font-size: 24px;
   }
 }
